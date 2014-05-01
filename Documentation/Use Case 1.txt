@@ -1,0 +1,30 @@
+Use case 1
+
+
+Name				Elevator summoned case 1 
+Version				1.0
+Goal				Transport person to another floor (on shortest possible way)
+Summary				Elevator summoned by one person
+Actors				Person 1, Person 2, Elevator
+Preconditions			The scheduler summones a Person. Clock-time is deliverd without failures
+Triggers			Button is pressed by the person
+
+Basic course of events		1. Button is pressed
+				2. Elevator is not on the other floor
+				3. Person waits for elevator
+				4. Elevator reach floor
+				5. Person enters the elevator
+				6. Elevator moves to the other floor
+				7. Person exits the elevator
+
+Alternative paths		1. Button is pressed
+				2. Elevators is on the floor
+				3. Person enters the elevator
+				4. Elevator moves to the other floor
+				5. Person exits the elevator
+
+Postconditions			New person is generated	
+Busines rules			NA
+Notes				
+Author				Group members/development Team
+Date				01.05.2014

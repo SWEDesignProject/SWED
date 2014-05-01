@@ -1,0 +1,54 @@
+Use Case - General
+
+Name
+Version
+Goal
+Summary
+Actors
+Preconditions
+Triggers
+Basic course of events
+Alternative paths
+Postconditions
+Busines rules
+Notes
+Author
+Date
+
+
+Possible use cases
+- Person join floor
+- Person press button
+
+
+//-------------------------------------//
+
+
+- Person press button
+	- Person on Floor 1 press btn first
+		a) elevator on Floor 1
+		b) elevator on Floor 2
+
+	- Person on Floor 2 press btn first
+		a) elevator on Floor 1
+		b) elevator on Floor 2
+
+	- Person on Floor 1 and Floor 2 press at same time
+		a) elevator on Floor 1
+		b) elevator on Floor 2
+
+
+//-------------------------------------//
+
+
+1) Button pressed
+	a) elevator on same floor
+	b) elevator on different floor
+
+2) Both buttons are pressed at the same time
+
+
+
+
+
+
