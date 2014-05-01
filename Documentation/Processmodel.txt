@@ -5,4 +5,20 @@ Choose Processmodel
 - fix and clear requirements
 - fix deadline
 - no fix budget
-- no system engineering -> 
+- no system engineering -> only software engineering
+
+-> WATERFALL MODEL!
+
+
+Team Structure
+
+-> Democratic Decentralized
+
+Programming language: Java 
+- Object Oriented
+- Platform independent
+
+SCM: GitHub
+- Good implementation in eclipse
+- No risk to overwrite other data
+- Online availability
