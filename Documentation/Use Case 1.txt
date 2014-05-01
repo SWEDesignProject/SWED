@@ -6,7 +6,7 @@ Version				1.0
 Goal				Transport person to another floor (on shortest possible way)
 Summary				Elevator summoned by one person
 Actors				Person 1, Person 2, Elevator
-Preconditions			The scheduler summones a Person. Clock-time is deliverd without failures
+Preconditions			If no person is available the scheduler summones a Person. Clock-time is deliverd without failures
 Triggers			Button is pressed by the person
 
 Basic course of events		1. Button is pressed

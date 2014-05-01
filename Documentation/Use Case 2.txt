@@ -1,0 +1,27 @@
+Use case 2
+
+
+Name				Elevator summoned case 2 
+Version				1.0
+Goal				Transport person to another floor (on shortest possible way)
+Summary				Elevator summoned by two person at the same time
+Actors				Person 1, Person 2, Elevator
+Preconditions			If no persons are available the scheduler summones them. Clock-time is deliverd without failures
+Triggers			Button is pressed by the person
+
+Basic course of events		1. Buttons are pressed
+				2. Person who stays on the same floor like the elevator enters the elevator
+				3. Elevator moves to the other floor 	
+				4. The other Person waits for elevator
+				5. Elevator reach floor
+				6. Person exits elevator other person enters elevator
+				7. Elevator moves to the other floor
+				8. Person exits the elevator
+
+Alternative paths		
+
+Postconditions			New person is generated	
+Busines rules			NA
+Notes				
+Author				Group members/development Team
+Date				01.05.2014
