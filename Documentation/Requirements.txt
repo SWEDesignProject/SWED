@@ -1,0 +1,35 @@
+13:09 01.05.2014
+
+Requirements
+
+General:
+	- Two floor office building
+	- One elevator
+	- Platform independent
+	- Object oriented ? Java
+	- Capacity of floor and elevator: 1 person
+
+	Elevator:
+		- Elevator needs 5 seconds (s) to reach the next floor
+		- Button with light
+		- Bell
+		- Door
+
+	Floor:
+		- Button with light
+		- Arrival-light
+
+Simulation:
+	- Clock starting with zero
+		- Increments by 1 every second
+	- Simulator sends time t0 scheduler and elevator every second (s)
+
+Scheduler:
+	- Two random start cases
+		1.Button pressed in floor 1
+		2.Button pressed in floor 2
+	- Time 1 and 2 randomly between 5-20 (time until button pressed)
+	- Floor empty (person x enter elevator) ? creation of a new Person
+		- Scheduler creates next time Tn+1[Tn+5...Tn+20] 
+
+

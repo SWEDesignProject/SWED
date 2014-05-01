@@ -1,0 +1,8 @@
+Choose Processmodel
+
+- small project
+- mission critical
+- fix and clear requirements
+- fix deadline
+- no fix budget
+- no system engineering -> 
