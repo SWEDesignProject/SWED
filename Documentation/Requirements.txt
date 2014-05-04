@@ -22,7 +22,7 @@ General:
 Simulation:
 	- Clock starting with zero
 		- Increments by 1 every second
-	- Simulator sends time t0 scheduler and elevator every second (s)
+	- Simulator sends time to scheduler and elevator every second (s)
 
 Scheduler:
 	- Two random start cases
